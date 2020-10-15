@@ -1,0 +1,3 @@
+services:
+  hello_manny.greeting:
+    class: Drupal\hello_manny\HelloMannyGreeting
