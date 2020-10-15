@@ -19,7 +19,7 @@ class HelloMannyGreeting {
       return $this->t('Good morning Manny');
     }
     if ((int) $time->format('G') >= 12 && (int) $time->format('G') < 18) {
-      return $this->t('Good evening Manny');
+      return $this->t('Good afternoon Manny');
     }
     if ((int) $time->format('G') >= 18) {
       return $this->t('Good evening Manny');
