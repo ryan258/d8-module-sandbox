@@ -1,0 +1,7 @@
+hello_manny.hello:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\hello_manny\Controller\HelloMannyController::helloManny'
+    _title: 'Our first route'
+  requirements:
+    _permission: 'access content'
